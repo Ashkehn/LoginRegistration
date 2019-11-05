@@ -70,10 +70,10 @@
         <br>
         <div class="form-group">
             <label>
-                <input type="checkbox" name="rol" value="ADMIN" checked="checked">
+                <input type="radio" name="rol" value="ADMIN" checked="checked">
             </label> Admin
             <label>
-                <input type="checkbox" name="rol" value="USER">
+                <input type="radio" name="rol" value="USER">
             </label>User
         </div>
         <input type="submit" value="Register" class="btn btn-primary" />
