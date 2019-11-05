@@ -27,7 +27,4 @@ public interface UserRepository  extends JpaRepository<User, String> {
 
 	@Override
 	User getOne(String s);
-
-	List<User> findByNameLike(String name);
-
 }

@@ -38,10 +38,10 @@ public class UserService {
 	}
 
 	public List<User> allUsers() {
-		List<User> list = userRepository.findAll(Sort.by(Sort.Direction.ASC, "age"));
+		List<User> list = userRepository.findAll(Sort.by(Sort.Direction.ASC, "random"));
 		return  list;
 	}
-
+	@javax.transaction.Transactional
 	@PreRemove
 	public boolean delete(String email) {
 		 userRepository.deleteById(email);

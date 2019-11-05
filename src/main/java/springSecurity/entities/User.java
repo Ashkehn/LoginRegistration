@@ -25,6 +25,19 @@ public class User implements Serializable {
 	private String name;
 	@Size(min =6)
 	private String password;
+	@NotNull(message = "can not be empty")
+	private  String address;
+
+	public String getAddress() {
+
+		return address;
+	}
+
+	public void setAddress(String address) {
+
+		this.address = address;
+	}
+
 	private int age;
 	private int random=new Random().nextInt(9000)+10000;;
 

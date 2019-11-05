@@ -53,13 +53,17 @@
 
         </div>
         <div class="form-group">
-            <label for="name" class="form-control-label">name</label> <input
+            <label for="name" class="form-control-label">Name</label> <input
                 type="text" class="form-control"  id="name" name="name" />
             <div class="text text-danger"></div>
         </div>
-
         <div class="form-group">
-            <label for="name" class="form-control-label">Age</label> <input
+            <label for="name" class="form-control-label">Address</label> <input
+                type="text" class="form-control"  id="address" name="address" />
+            <div class="text text-danger"></div>
+        </div>
+        <div class="form-group">
+            <label for="age" class="form-control-label">Age</label> <input
                 type="text" class="form-control"  id="age" name="Age" />
             <div class="text text-danger"></div>
         </div>
@@ -70,11 +74,11 @@
             </label> Admin
             <label>
                 <input type="checkbox" name="rol" value="USER">
-            </label>User<BR>
-        </div><br>
+            </label>User
+        </div>
         <input type="submit" value="Register" class="btn btn-primary" />
         <br>
-        <br>
+
         <a href="${pageContext.request.contextPath}/login">Back To Login Page</a>
     </form>
 </div>
