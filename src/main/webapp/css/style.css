@@ -1,0 +1,11 @@
+.mySpace{
+	padding-top: 50px;
+	width: 50%;
+}
+.card{
+	overflow-y: scroll;
+}
+.bt{
+	left: 50%;
+	margin-top: 50%;
+}
