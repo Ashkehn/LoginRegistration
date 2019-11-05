@@ -53,15 +53,13 @@
             <c:if test="${role=='[ROLE_ADMIN]'}">
             <td><a href="${pageContext.request.contextPath}/delete?get=${users.email}">delete</a></td>
             </c:if>
-            <c:if test="${role=='[ROLE_USER]'}">
-                <td><a href="${pageContext.request.contextPath}/delete?get=${users.email}" class="disabled">delete</a></td>
-            </c:if>
+           
         </tr>
     </c:forEach>
                 </thead>
                 <tbody>
                 <tr>
-                </tr>
+                                        </tr>
                 </tbody>
             </table>
         </div>
